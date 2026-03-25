@@ -11,6 +11,10 @@ The goal of this project is to:
 3. Provide practical, working examples of each pattern
 4. Serve as a learning resource for developers familiar with one language looking to understand the other
 
+## Background
+
+The patterns in this handbook are primarily based on the seminal book **"Design Patterns: Elements of Reusable Object-Oriented Software"** (1994) by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides — collectively known as the **Gang of Four (GoF)**. The book defines 23 foundational OOP design patterns, all of which are covered here. Python-specific patterns extend beyond the GoF catalog.
+
 ## Repository Structure
 
 ```
@@ -28,44 +32,47 @@ Each pattern directory contains:
 
 ## Design Patterns Included
 
+> Patterns within each section are ordered from **beginner-friendly to advanced**.
+
 ### Creational Patterns
 
-- Singleton: Ensure a class has only one instance
-- Factory Method: Create objects without specifying the exact class
-- Abstract Factory: Create families of related objects
-- Builder: Construct complex objects step by step
-- Prototype: Clone existing objects
+- **Singleton** ⭐ — Ensure a class has only one instance
+- **Factory Method** ⭐ — Create objects without specifying the exact class
+- **Prototype** ⭐⭐ — Clone existing objects
+- **Builder** ⭐⭐ — Construct complex objects step by step
+- **Abstract Factory** ⭐⭐⭐ — Create families of related objects
 
 ### Structural Patterns
 
-- Adapter: Allow incompatible interfaces to work together
-- Bridge: Separate abstraction from implementation
-- Composite: Compose objects into tree structures
-- Decorator: Add responsibilities to objects dynamically
-- Facade: Provide simplified interface to a complex subsystem
-- Flyweight: Minimize memory usage by sharing common parts of state
-- Proxy: Represent another object
+- **Facade** ⭐ — Provide a simplified interface to a complex subsystem
+- **Proxy** ⭐ — Represent another object with controlled access
+- **Adapter** ⭐⭐ — Allow incompatible interfaces to work together
+- **Decorator** ⭐⭐ — Add responsibilities to objects dynamically
+- **Composite** ⭐⭐ — Compose objects into tree structures
+- **Bridge** ⭐⭐⭐ — Separate abstraction from implementation
+- **Flyweight** ⭐⭐⭐ — Minimize memory usage by sharing common parts of state
 
 ### Behavioral Patterns
 
-- Chain of Responsibility: Pass requests along a chain of handlers
-- Command: Turn a request into a stand-alone object
-- Iterator: Access elements sequentially without exposing underlying representation
-- Mediator: Reduce chaotic dependencies between objects
-- Memento: Capture and restore an object's internal state
-- Observer: Notify dependents when an object changes
-- State: Allow an object to alter its behavior when its state changes
-- Strategy: Define a family of algorithms and make them interchangeable
-- Template Method: Define the skeleton of an algorithm
-- Visitor: Separate algorithm from object structure
+- **Strategy** ⭐ — Define a family of algorithms and make them interchangeable
+- **Observer** ⭐ — Notify dependents when an object changes
+- **Template Method** ⭐⭐ — Define the skeleton of an algorithm
+- **Iterator** ⭐⭐ — Access elements sequentially without exposing underlying representation
+- **Command** ⭐⭐ — Turn a request into a stand-alone object
+- **State** ⭐⭐ — Allow an object to alter its behavior when its state changes
+- **Chain of Responsibility** ⭐⭐ — Pass requests along a chain of handlers
+- **Interpreter** ⭐⭐⭐ — Define a grammar for a language and provide an interpreter to evaluate sentences in it
+- **Memento** ⭐⭐⭐ — Capture and restore an object's internal state
+- **Mediator** ⭐⭐⭐ — Reduce chaotic dependencies between objects
+- **Visitor** ⭐⭐⭐ — Separate algorithm from object structure
 
 ### Python-Specific Patterns
 
-- Context Managers
-- Decorators
-- Descriptors
-- Generator Patterns
-- Metaclasses
+- **Decorators** ⭐ — Wrap functions with reusable cross-cutting behavior
+- **Context Managers** ⭐ — Guarantee setup/teardown for resource management
+- **Generator Patterns** ⭐⭐ — Lazy, memory-efficient iteration
+- **Descriptors** ⭐⭐⭐ — Control attribute access across multiple classes
+- **Metaclasses** ⭐⭐⭐ — Customize class creation itself
 
 ## Usage
 
@@ -90,7 +97,3 @@ java PatternExample
 
 - Python 3.6+
 - Java 11+
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
