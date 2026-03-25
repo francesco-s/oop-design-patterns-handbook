@@ -1,5 +1,3 @@
-package behavioral.observer;
-
 import java.util.ArrayList;
 import java.util.List;
 

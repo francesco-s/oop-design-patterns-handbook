@@ -1,5 +1,3 @@
-package creational.abstractfactory;
-
 // Abstract Product interfaces
 interface Button {
     String render();

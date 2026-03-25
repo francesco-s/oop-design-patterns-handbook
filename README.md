@@ -56,7 +56,7 @@ Each pattern directory contains:
 
 - **Strategy** ⭐ — Define a family of algorithms and make them interchangeable
 - **Observer** ⭐ — Notify dependents when an object changes
-- **Template Method** ⭐⭐ — Define the skeleton of an algorithm
+- **Template Method** ⭐ — Define the skeleton of an algorithm
 - **Iterator** ⭐⭐ — Access elements sequentially without exposing underlying representation
 - **Command** ⭐⭐ — Turn a request into a stand-alone object
 - **State** ⭐⭐ — Allow an object to alter its behavior when its state changes

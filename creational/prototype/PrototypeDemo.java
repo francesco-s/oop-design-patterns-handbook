@@ -1,5 +1,3 @@
-package creational.prototype;
-
 import java.util.HashMap;
 import java.util.Map;
 

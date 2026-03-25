@@ -1,5 +1,3 @@
-package creational.factory;
-
 // Product interface
 interface Document {
     String create();
