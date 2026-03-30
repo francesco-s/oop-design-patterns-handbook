@@ -1,3 +1,8 @@
+# State vs Strategy
+# They look structurally identical but differ in intent:
+#     Strategy — the context never changes strategy on its own; the client swaps it from outside
+#     State — states transition themselves by calling machine.set_state(...) internally, forming a self-driving state machine
+
 from abc import ABC, abstractmethod
 
 
