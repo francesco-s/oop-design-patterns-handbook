@@ -1,6 +1,3 @@
-// CoffeeDecorator.java
-
-
 // Component interface
 interface Coffee {
     double cost();
